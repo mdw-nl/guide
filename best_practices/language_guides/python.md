@@ -1,10 +1,10 @@
 # Python
 
-*Page maintainer: Patrick Bos* [@egpbos](https://github.com/egpbos)
+*Page maintainer: Alessio Romita* [@stin911](https://github.com/stin911)
 
 
-Python is the "dynamic language of choice" of the Netherlands eScience Center.
-We use it for data analysis and data science projects using the SciPy stack and Jupyter notebooks, and for [many other types of projects](https://github.com/NLeSC?language=python): workflow management, visualization, NLP, web-based tools and much more.
+Python is the "dynamic language of choice" at Medical Data Works.
+We use it for data analysis and data science projects using the SciPy stack and Jupyter notebooks, and for [many other types of projects](https://github.com/mdw-nl?language=python): workflow management, visualization, NLP, web-based tools and much more.
 It is a good default choice for many kinds of projects due to its generic nature, its large and broad ecosystem of third-party modules and its compact syntax which allows for rapid prototyping.
 It is not the language of maximum performance, although in many cases performance critical components can be easily replaced by modules written in faster, compiled languages like C(++) or Cython.
 
@@ -13,7 +13,7 @@ In Python, this text can be retrieved with the `import this` command.
 
 ## Project setup
 
-When starting a new Python project, consider using our [Python template](https://github.com/NLeSC/python-template). This template provides a basic project structure, so you can spend less time setting up and configuring your new Python packages, and comply with the software guide right from the start.
+When starting a new Python project, consider using the Netherlands eScience Center [Python template](https://github.com/NLeSC/python-template). This template provides a basic project structure, so you can spend less time setting up and configuring your new Python packages, and comply with the software guide right from the start.
 
 ## Use Python 3, avoid 2
 
@@ -128,7 +128,6 @@ For packaging your code, you can either use `pip` or `conda`. Neither of them is
     * You can follow the section on "The manual way" as described [here](https://docs.pypi.org/trusted-publishers/using-a-publisher/).
 * Additional guidelines:
     * Packages should be uploaded to PyPI using [your own account](https://pypi.org/account/register)
-    * For packages developed in a team or organization, it is recommended that you create a team or organizational account on PyPI and add that as a collaborator with the owner rule. This will allow your team or organization to maintain the package even if individual contributors at some point move on to do other things. At the Netherlands eScience Center, we are a fairly small organization, so we use a single backup account (`nlesc`).
     * When distributing code through PyPI, non-python files (such as `requirements.txt`) will not be packaged automatically, you need to [add them to](https://stackoverflow.com/questions/1612733/including-non-python-files-with-setup-py) a `MANIFEST.in` file.
     * To test whether your distribution will work correctly before uploading to PyPI, you can run `python -m build` in the root of your repository. Then try installing your package with `pip install dist/<your_package>tar.gz.`
     * `python -m build` will also build [Python wheels](http://pythonwheels.com/), the current standard for [distributing](https://packaging.python.org/distributing/#wheels) Python packages. This will work out of the box for pure Python code, without C extensions. If C extensions are used, each OS needs to have its own wheel. The [manylinux](https://github.com/pypa/manylinux) Docker images can be used for building wheels compatible with multiple Linux distributions. Wheel building can be automated using GitHub Actions or another CI solution, where you can build on all three major platforms using a build matrix.
@@ -142,7 +141,7 @@ For packaging your code, you can either use `pip` or `conda`. Neither of them is
 ## Editors and IDEs
 
 Every major text editor supports Python, either natively or through plugins.
-At the Netherlands eScience Center, some popular editors or IDEs are:
+At Medical Data Works, some popular editors or IDEs are:
 
 - [vscode](https://code.visualstudio.com/) holds the middle ground between a lightweight text editor and a full-fledged language-dedicated IDE.
 - [vim](https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/) or `emacs` (don't forget to install plugins to get the most out of these two), two versatile classic powertools that can also be used through remote SSH connection when needed.
@@ -253,7 +252,7 @@ The default location to put HTML documentation is [Read the Docs](https://readth
 ### Autogenerating the documentation
 
 There are several tools that automatically generate documentation from docstrings.
-At the eScience Center, we mostly use [Sphinx](http://sphinx-doc.org), which uses reStructuredText as its markup language, but can be extended to use Markdown as well.
+One example is [Sphinx](http://sphinx-doc.org), which uses reStructuredText as its markup language, but can be extended to use Markdown as well.
 
 * [Sphinx quickstart](http://www.sphinx-doc.org/en/master/usage/quickstart.html)
 * [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
@@ -318,7 +317,7 @@ Having said that, there are many ways to run Python code in parallel:
 * A much simpler alternative in Python 3 is the [`concurrent.futures`](https://docs.python.org/3/library/concurrent.futures.html) module.
 * [IPython / Jupyter notebooks have built-in parallel and distributed computing capabilities](https://ipython.org/ipython-doc/3/parallel/)
 * Many modules have parallel capabilities or can be compiled to have them.
-* At the eScience Center, we have developed the [Noodles package](https://research-software-directory.org/software/noodles) for creating computational workflows and automatically parallelizing it by dispatching independent subtasks to parallel and/or distributed systems.
+* Multiprocessing could be an alternative, which is supported by tools such as [Apache Airflow](https://airflow.apache.org/) which uses mutiple worker nodes and task orchestration.
 
 ### Web Frameworks
 

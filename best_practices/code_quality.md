@@ -4,13 +4,10 @@ Ways to improve code quality are in the [Code quality](https://the-turing-way.ne
 
 There are [online software quality improvement tools](https://the-turing-way.netlify.app/reproducible-research/code-quality/code-quality-style.html#online-services-providing-software-quality-checks) see the [language guides](language_guides/languages_overview.md) for good options per language.
 
-## Editorconfig
-
-The eScience Center has a [shared editor config file](https://raw.githubusercontent.com/NLeSC/exemplum/master/.editorconfig)
 
 ## Name spaces
 
-If your language supports namespaces, use **nl.esciencecenter** or better a namespace based on the project.
+If your language supports namespaces, use **nl.medicaldataworks[.<projectname>**. If the project is an open-source library in a different organization, use the specific project or (GitHub) organization namespace.
 
 ## Code reviews
 
