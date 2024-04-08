@@ -1,6 +1,6 @@
 # Bash
 
-*Page maintainer: Bouwe Andela* [@bouweandela](https://github.com/bouweandela)
+*Page maintainer: Luis Sanchez Gomez* [@lsago](https://github.com/lsago)
 
 
 Bash is both a command line interface,
@@ -11,7 +11,7 @@ Zsh is an alternative shell that also understands the Bash scripting language,
 this is the default shell on recent versions of Mac OS.
 Both Bash and Zsh are available for most operating systems.
 
-At the Netherlands eScience Center, Bash is the recommended shell scripting
+At Medical Data Works, Bash is the recommended shell scripting
 language because it is the most commonly used shell language and therefore the
 most convenient for collaboration.
 To facilitate mutual understanding, it is also recommended that you are aware of
@@ -22,7 +22,7 @@ are always on the same page.
 
 In this chapter, a short introduction and best practices for both interactive
 and use in scripts will be given.
-An excellent tutorial introducing Bash can be found
+A good tutorial introducing Bash can be found
 [here](https://swcarpentry.github.io/shell-novice/).
 If you have not used Bash or another shell before, it is recommended that you
 follow the tutorial before continuing reading.
@@ -161,7 +161,7 @@ If you have the option to write a Python script instead, that is the recommended
 way to go.
 This will bring you all the advantages of a fully-fledged programming language
 (such as libraries, frameworks for testing and documentation) and Python is the
-recommended programming language at the Netherlands eScience Center.
+recommended programming language at Medical Data Works.
 If you do not mind having an extra dependency and would like to use the features
 and commands available in the shell from Python, the
 [sh](https://sh.readthedocs.io) library is a nice option.

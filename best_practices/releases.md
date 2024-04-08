@@ -61,9 +61,9 @@ Think of it as a kind of code review but with focus on mechanics, not code. The 
 (ii) download works, (iii) there are instructions on how to (iv) install and (v) start using software,
 some of the things in this *scan* could be automated with continuous integration.
 
-### Citeable
+<!-- ### Citeable
 
-Create a DOI for each release see [Making software citable](../citable_software/making_software_citable.md).
+Create a DOI for each release see [Making software citable](../citable_software/making_software_citable.md). -->
 
 ### Dissemination
 

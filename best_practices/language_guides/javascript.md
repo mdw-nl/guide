@@ -1,6 +1,6 @@
 # Getting started
 
-*Page maintainer: Jurriaan Spaaks* [@jspaaks](https://github.com/jspaaks)
+*Page maintainer: Tim Hendriks* [@tim-hendriks](https://github.com/tim-hendriks)
 
 
 To learn about JavaScript, view the presentations by [Douglas Crockford](http://en.wikipedia.org/wiki/Douglas_crockford):

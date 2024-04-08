@@ -61,12 +61,12 @@ API documentation should explain function arguments and outputs, or the object m
 ## Usage documentation
 
 * User manual (as PDF) in the "doc" directory. This is the real manual, targeted at your users. Make sure this is readable by domain experts, and not only software developers. Make sure to include:
-    * Netherlands eScience Center logo.
+    * Medical Data Works logo.
     * Examples.
     * Author name(s).
     * Versions numbers of the software and documentation.
     * References to:
-        * The eScience Center web site.
+        * The Medical Data Works website.
         * The project web site.
         * The Github page of the project.
         * Location of the issue tracker.
@@ -113,7 +113,7 @@ developers join.
 From the beginning of the project, a decision on the code style has to be made
 and then should be documented. Not having a documented code style will highly
 increase the chance of inconsistent style across the codebase, even when only
-one developer writes code. The Netherlands eScience Center should have a sane suggestion of coding style
+one developer writes code. Medical Data Works should have a sane suggestion of coding style
 for each programming language we use. Coding styles are about consistency
 and making a choice, and not so much about the superiority of one style over the other.
 A sane set of guides can be found on in [google documentation](https://github.com/google/styleguide).
