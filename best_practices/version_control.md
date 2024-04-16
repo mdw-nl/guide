@@ -17,4 +17,4 @@ As a title, write a short summary of what the commit does when applied in presen
 ```
 
 ## Workflow practices
-Do not commit on main. Create a new branch for each distinct feature/issue.
+Do not commit on main. Create a new branch for each distinct feature/issue. Branch names should describe the fix/feature being implemented, or if linked to an issue have the same name as the issue it fixes.
