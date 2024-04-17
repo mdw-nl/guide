@@ -2,6 +2,7 @@
 * [Introduction](/README.md)
 * [Best practices](/best_practices/overview.md)
    * [Code Quality](/best_practices/code_quality.md)
+   * [Version Control](/best_practices/version_control.md)
    * [Code Review](/best_practices/code_review.md)
    * [Releases](/best_practices/releases.md)
    * [Documentation](/best_practices/documentation.md)
