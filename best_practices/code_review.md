@@ -41,7 +41,8 @@ We haven't yet decided on how to integrate code reviews into our working
 process. While that gets hashed out, here is some general advice from various
 sources and experience.
 
-- Review everything, nothing is too short or simple
+- Review everything, nothing is too short or simple. This includes any
+code changes from outsourced development
 
 - Try to have something else to do, and spread the load throughout your
 working day. Don't review full-time.
